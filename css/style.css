@@ -1,0 +1,133 @@
+.fixed-top {
+	position: absolute !important;
+}
+
+.navbar-brand {
+ margin: -20px 0px 0px 50px !important;
+ padding: 30px 20px 20px 20px !important;
+ box-shadow: 10px 6px 15px rgba(0, 0, 0, 0.5);
+ background-color: #fff;
+ border-radius: 15px;
+}
+
+.navbar-brand:hover{
+	color: #fff;
+	background-color: #fff;
+}
+
+@media (min-width: 300px){
+	.navbar-brand {
+	margin: -20px 75px 0 75px !important;
+	border-radius: 15px;
+
+}
+}
+
+@media (min-width: 768px){
+	.navbar-brand {
+	margin: -20px 75px 0 75px !important;
+	border-radius: 15px;
+
+}
+}
+
+
+
+#hero {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+}
+
+#hero .container{
+	height: 700px;
+}
+
+#hero h2 {
+	font-size: 4em;
+	font-weight: 600;
+}
+#hero button {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+	#hero button{
+	margin-top: 35px;
+}
+}
+
+
+.hero-grad {
+	background-image: linear-gradient(black,transparent);
+}
+
+.hero-row {
+padding: 70% 0 10%;
+}
+
+@media (min-width: 450px) {
+.hero-row {
+padding: 43% 0 10%;
+}
+}
+
+@media (min-width: 768px) {
+.hero-row {
+padding: 32% 0 10%;
+}
+}
+
+@media (min-width: 991px) {
+.hero-row {
+padding: 25% 0 10%;
+}
+}
+
+.texto-claro {
+	color:#fff;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+}
+
+.call{
+	
+	background-image: url(../img/love.jpg);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 30px;
+
+}
+
+.call-grad {
+	padding: 50px 0 ;
+	background-image: linear-gradient(transparent,black);
+}
+
+.formulario {
+	background:#f7f7f7;
+}
+.formulario h4 {
+	padding-top: 2rem;
+}
+.formulario button {
+	margin-bottom: 1rem;
+}
+.copyleft {
+	padding: 2rem 1rem;
+ 	background-color: #555;
+  	border-radius: 0.3rem;
+  	color:#fff;
+}
+.copyleft a {
+	color:#28a745;
+}
+
+.copyleft a:hover {
+	color:white;
+}
+
+.project-header-color {
+	background: linear-gradient( #3a7b41,#2f6535 4%);
+}
